@@ -1,0 +1,98 @@
+Câu 1: JavaScript là ngôn ngữ xử lý ở:
+A: Client 
+B: Server
+C: Server/Client
+D: Không có dạng nào
+=> A
+Câu 2: Thẻ <input type=''Password'' ...> dùng để làm gì?
+A. Tạo một ô text để nhập dữ liệu
+B. Tạo một ô password
+C. Tạo một cùng có nhiều cột nhiều dòng
+D. Tất cả các ý trên
+=> B
+Câu 3: Hàm alert() dùng để làm gì?
+A. Dùng để hiện một thông báo.
+B. Dùng để nhập một thông báo.
+C. Dùng để chuyển đổi số sang chữ
+D. Tất cả các dạng trên.
+=> A
+Câu 4: Ngôn ngữ JavaScript có phân biệt chữ hoa, chữ thường?
+A. Có
+B. Không
+=> A
+Câu 5: Để trình bày một đoạn văn bản trong tài liệu HTML ta dùng thẻ:
+A. <HR>
+B. <P>
+C.<BR>
+D.<PRE>
+Chọn đáp án B
+
+Câu 6: Thứ tự xếp tầng của css theo độ ưu tiên từ thấp đến cao như sau:
+A. External style sheet, internal style sheet, browser default, inline style
+B. Inline style, browser default, external style sheet, internal style sheet
+C. Browser default, internal style sheet, inline style, external style sheet
+D. Browser default, external style sheet, internal style sheet, inline style
+Chọn đáp án D
+
+Câu 7: Để liên kết tới external style sheet ta sử dụng thẻ:
+A. <style>
+B. <a>
+C. <link>
+D. <css>
+Chọn đáp án C
+
+Câu 8: Dòng nào thể hiện đúng một comment (lời chú thích) trong css?
+A. /* this is a comment */
+B. // this is a comment //
+C. ‘ this is a comment
+D. // this is a comment
+Chọn đáp án A
+
+Câu 9: Ký hiệu nào dưới đây thể hiện một thẻ mở?
+A. </>
+B. <>
+C. <\>
+D. <!-->
+Chọn đáp án B
+
+Câu 10: "aptech".length trả lại giá trị là ____.
+A. 5
+B. 6
+C. 7
+D. Error
+Chọn đáp án B
+
+Câu 11: Lệnh CSS có thể viết được ở đâu?
+A. Viết lẫn vào HTML nhưng khi viết có thẻ hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+B. Viết lẫn vào HTML nhưng khi viết có thẻhoặc viết ra một file riêng và đặt tên có phần mở rộng là .sheet
+C. Viết lẫn vào HTML nhưng khi viết có thẻ, viết theo tên thẻ ở thuộc tính style=" hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+D. Viết lẫn vào HTML nhưng khi viết có thẻ hoặc viết ra một file riêng và đặt tên có phần mở rộng là .css
+Chọn đáp án C
+
+Câu 12: Thẻ trong HTML được viết thế nào?
+A. Viết theo các thẻ có sẵn và tự đặt
+B. Được viết theo các cặp thẻ có sẵn trong các version của HTML
+C. Được viết tùy thích và phải đúng nguyên tắc đóng mở theo chuẩn w3c
+D. Cả A, B, C đều đúng
+Chọn đáp án B
+
+Câu 13: Với các thẻ được quy định về cách thức hiện thị tài liệu, chúng ta có thể can thiệp để thay được được thêm các thông tin đó không?
+A. Được thông qua việc khai báo lại tên các cặp thể và định dạng
+B. Được thông qua việc khai báo lại thể style
+C. Không được vì HTML đã quy định thẻ đó có định dạng rồi
+Chọn đáp án B
+
+Câu 14: Node.js là gì?
+A. Một trình duyệt web
+B. Một ngôn ngữ lập trình
+C. Một môi trường chạy mã JavaScript
+D. Một cơ sở dữ liệu
+Chọn đáp án C
+Câu 15: Có những cách xử lý bất đồng bộ nào?
+Select one or more:
+A. Dùng setTimeout
+B. Dùng Async/Await
+C. Dùng Promise
+D. Dùng callback function
+Chọn đáp án B, C, D
+

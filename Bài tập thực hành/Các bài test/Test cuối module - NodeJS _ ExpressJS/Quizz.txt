@@ -1,0 +1,181 @@
+1. Node.js là gì?
+A. Một trình duyệt web
+B. Một ngôn ngữ lập trình
+C. Một môi trường chạy mã JavaScript
+D. Một cơ sở dữ liệu
+=> c
+
+2. Node.js sử dụng ngôn ngữ lập trình nào?
+A. Java
+B. C++
+C. JavaScript
+D. Python
+=> c
+
+3. Node.js được phát triển bởi ai?
+A. Google
+B. Apple
+C. Microsoft
+D. Facebook
+=> a
+
+4. Node.js được sử dụng để làm gì?
+A. Xây dựng ứng dụng di động
+B. Xử lý dữ liệu trên máy chủ
+C. Tạo giao diện người dùng
+D. Lập trình trò chơi
+=> b
+
+5. Để cài đặt Node.js, cần phải cài đặt gì trước tiên?
+A. Trình duyệt web
+B. Trình biên dịch C++
+C. Máy ảo Java
+D. Gói cài đặt Node.js
+=> d
+
+6. Node.js có hỗ trợ đa luồng không?
+A. Có
+B. Không
+=> a
+
+7. Để tạo một máy chủ web đơn giản bằng Node.js, ta cần sử dụng module nào?
+A. http
+B. fs
+C. path
+D. os
+=> a
+
+8. Cú pháp nào được sử dụng để import một module trong Node.js?
+A. require('module_name')
+B. import 'module_name'
+C. include 'module_name'
+D. import module_name
+=> a
+
+9. Để khởi chạy một ứng dụng Node.js, ta sử dụng lệnh nào trong terminal?
+A. node app.js
+B. npm start
+C. node start
+D. npm run app
+=> a
+
+10. Node.js có hỗ trợ xử lý sự kiện không đồng bộ (non-blocking) không?
+A. Có
+B. Không
+=> a
+
+Câu 11. Express là framework?
+A. Đúng 
+B. Sai 
+=> A
+
+Câu 12: Cấu trúc của dự án express thường có các thành phần chính nào?
+Select one or more:
+A. Thư mục test: Chứa source code dành cho việc testing
+B. Thư mục views là nơi chứa các file html để hiển thị giao diện.
+C. File index.js(hoặc app.js): Đây là file chúng ta sẽ thực thi dự án.
+D. Thư mục src: Chứa toàn bộ source code của dự án
+The correct answers are: File index.js(hoặc app.js): Đây là file chúng ta sẽ thực thi dự án., Thư mục test: Chứa source code dành cho việc testing, Thư mục src: Chứa toàn bộ source code của dự án
+
+Câu 13: Những phát biểu đúng về Routing trong ExpressJS
+Select one or more:
+A. Nếu không có đường dẫn trùng khớp. Routing sẽ tìm đường dẫn gần trùng khớp nhất để xử lý.
+B. Trong express, Route có cấu trúc như sau
+```app.METHOD(PATH, HANDLER)```
+C. Các phương thức phổ biển đó là GET, POST, PUT, PATCH, DELETE
+D. Routing (định tuyến) là một khái niệm nói đến việc xác định cách mà ứng dụng phản hồi yêu cầu của khách hàng (client request) đến một điểm cuối cụ thể (endpoint), endpoint này thường là một URI hoặc một đường dẫn (Path) với một Request method (POST, PUT, GET, …) cụ thể.
+The correct answers are: Routing (định tuyến) là một khái niệm nói đến việc xác định cách mà ứng dụng phản hồi yêu cầu của khách hàng (client request) đến một điểm cuối cụ thể (endpoint), endpoint này thường là một URI hoặc một đường dẫn (Path) với một Request method (POST, PUT, GET, …) cụ thể., Các phương thức phổ biển đó là GET, POST, PUT, PATCH, DELETE, Trong express, Route có cấu trúc như sau
+```app.METHOD(PATH, HANDLER)```
+Câu 14: Luồng thực thi đúng trong mô hình Client - Server?
+Select one or more:
+A. Client ngắt kết nối khi server ngắt kết nối
+B. Server tiếp nhận requests và xử lý logic, kết nối đến cơ sở dữ liệu (Database) để lấy dữ liệu và trả về 1 http response cho client.
+C. Đầu tiên client sẽ gửi 1 http requests tới web server bằng cách thao tác trên trình duyệt (Truy cập tên miền trỏ tới server, login tài khoản ...).
+D. Client nhận dữ liệu từ http response và hiển thị lên trình duyệt cho người dùng.
+The correct answers are: Đầu tiên client sẽ gửi 1 http requests tới web server bằng cách thao tác trên trình duyệt (Truy cập tên miền trỏ tới server, login tài khoản ...)., Server tiếp nhận requests và xử lý logic, kết nối đến cơ sở dữ liệu (Database) để lấy dữ liệu và trả về 1 http response cho client., Client nhận dữ liệu từ http response và hiển thị lên trình duyệt cho người dùng.
+
+Câu 15: Mã 500 có ý nghĩa là gì?
+A. Lỗi phía Client
+B. Lỗi phía Server
+C. Lỗi router
+D. Chuyển hướng thành công
+The correct answer is: Lỗi phía Server
+
+Câu 16: Mã status 200 trong HTTP Response có ý nghĩa gì?
+A. Request đã được server tiếp nhận, hiểu và xử lý thành công.
+B. Lỗi sai đường dẫn.
+C. Client cần có thêm action để hoàn thành request.
+D. Cú pháp không chính xác hoặc không được thực hiện.
+The correct answer is: Request đã được server tiếp nhận, hiểu và xử lý thành công.
+
+Câu 17: Luồng thực thi đúng trong mô hình Client - Server: 
++Đầu tiên client sẽ gửi 1 http requests tới web server bằng cách thao tác trên trình duyệt (Truy cập tên miền trỏ tới server, login tài khoản ...).
++Server tiếp nhận requests và xử lý logic, kết nối đến cơ sở dữ liệu (Database) để lấy dữ liệu và trả về 1 http response cho client.
++Client nhận dữ liệu từ http response và hiển thị lên trình duyệt cho người dùng.
+A. Đúng 
+B. Sai 
+=> A
+
+Câu 18: Chọn những phát biểu đúng về requets trong ExpressJS
+Select one or more:
+A. Có 2 cách để lấy dữ liệu người dùng gửi đến là req.params, req.query
+B. Có 3 cách để lấy dữ liệu người dùng gửi đến là req.params, req.query, req.body
+C. req.is(type). Phương thức này trả về true nếu trường Content-Type của Request đang đến là kết nối với kiểu MIME Type đã được xác định bởi tham số type.
+D. Đối tượng Request của Express đại diện cho HTTP Request, chứa toàn bộ các thông tin mà client gủi lên server, bao gồm rất nhiều thứ như url, method, form data, header, ... Khi client truy cập vào 1 route mà server đã tạo đồng nghĩa với việc client đã gửi cho server 1 request
+The correct answers are: Đối tượng Request của Express đại diện cho HTTP Request, chứa toàn bộ các thông tin mà client gủi lên server, bao gồm rất nhiều thứ như url, method, form data, header, ... Khi client truy cập vào 1 route mà server đã tạo đồng nghĩa với việc client đã gửi cho server 1 request, Có 3 cách để lấy dữ liệu người dùng gửi đến là req.params, req.query, req.body, req.is(type)
+Phương thức này trả về true nếu trường Content-Type của Request đang đến là kết nối với kiểu MIME Type đã được xác định bởi tham số type.
+
+Câu 19: Chọn câu đúng về Middleware trong ExpressJS
+A. Chỉ truy cập được vào res.
+B. Truy cập được cả req và res có thể chuyển đến middleware function tiếp bằng next().
+C. Chỉ truy cập được req hoặc res có thể chuyển đến middleware function tiếp bằng next().
+D. Chỉ truy cập được vào req.
+The correct answer is: Truy cập được cả req và res có thể chuyển đến middleware function tiếp bằng next().
+
+Câu 20: Đọan code sau được dùng để làm gì?
+const express = require('express')
+const app = express()
+
+app.use((req, res, next) => {
+  console.log('Time:', Date.now())
+  next()
+})
+
+A. Đặt 1 Application-level middleware để log ra thời gian hiện tại và chuyển đến middleware tiếp theo.
+B. Đặt 1 Application-level middleware để log ra thời gian hiện tại.
+C. Đặt 1 Application-level middleware 
+D. Đặt 1 Router-level middleware để log ra thời gian hiện tại.
+The correct answer is: Đặt 1 Application-level middleware để log ra thời gian hiện tại và chuyển đến middleware tiếp theo.
+
+21. Express.js được sử dụng để làm gì?
+A. Xây dựng ứng dụng di động
+B. Xử lý dữ liệu trên máy chủ
+C. Tạo giao diện người dùng
+D. Lập trình trò chơi
+=> b
+
+22. Để khởi chạy một ứng dụng Express.js, ta sử dụng lệnh nào trong terminal?
+A. node app.js
+B. npm start
+C. node start
+D. npm run app
+=> b
+
+23. Express.js có hỗ trợ xử lý sự kiện không đồng bộ (non-blocking) không?
+A. Có
+B. Không
+
+24. Để tạo một ứng dụng web đơn giản bằng Express.js, ta cần sử dụng module nào?
+A. express
+B. fs
+C. path
+D. os
+=> a
+
+25. Express.js sử dụng ngôn ngữ lập trình nào?
+A. Java
+B. C++
+C. JavaScript
+D. Python
+=> c
+

@@ -1,0 +1,10 @@
+1. Xây dựng Quiz app(App câu đố) đơn giản về bóng đá với APIs sau (Lưu dữ liệu mẫu để làm nếu chưa có kiến thức về request API) 
+API_LINK: https://opentdb.com/api.php?amount=5&category=21&difficulty=easy&type=multiple
+APIs bao gồm câu hỏi, đáp án đúng, danh sách đáp án sai và nhiệm vụ của bạn là xây dựng sản phẩm từ dữ liệu đó đạt các tiêu chí đánh giá sau:
+- Có các tính năng:
+		+) Lấy được dữ liệu từ APIs.
+		+) Hiển thị được toàn bộ dữ liệu từ APIs dưới dạng câu hỏi và đáp án.
+		+) Khi trả lời đúng được 10 điểm kèm thông báo, sai được 0 điểm kèm thông báo. Và hiển thị toàn bộ số điểm người dùng đạt được.
+- Có CSS, phát triển trên màn hình di động trước thay vì phát triển trên web
+- Tối ưu hóa code, tái sử dụng được càng nhiều code càng tốt( tái sử dụng hàm, tái sử dụng các component tạo sẵn).
+- Commit Code lên Github sẽ được cộng điểm vào tổng số điểm cả bài thi.

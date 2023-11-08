@@ -1,0 +1,248 @@
+Câu 1. Định nghĩa nào sau đây là đúng với Reactjs?
+A. Reactjs là một ngôn ngữ lập trình được phát triển bởi Facebook.
+B. Reactjs là một thư viện Javascript được phát triển bởi Facebook.
+C. Reactjs là một ngôn ngữ lập trình được phát triển bởi Google.
+D. Reactjs là một thư viện Javascript được phát triển bởi Google.
+=> B
+
+Câu 2. Câu nào sau đây là đúng về Reactjs?
+A. Reactjs tạo nên giao hiện hướng đến backend và chỉ tập trung cách load dữ liệu.
+B. Reactjs tạo nên giao hiện hướng đến backend và chỉ tập trung cách xử lí dữ liệu.
+C. Reactjs tạo nên giao hiện frontend và chỉ tập trung xử lí cách load dữ liệu.
+D. Reactjs chỉ dùng tạo 
+=> A
+
+Câu 3. Chọn đáp án sai: Tính năng của Reactjs là:
+A. Khả năng load dữ liệu nhanh.
+B. Load lại toàn bộ dữ liệu.
+C. Đóng gói và quản lí theo logic component.
+D. Học một lần, viết mọi nơi.
+=> B
+
+Câu 4. Cần tải nodejs để lập trình với Reactjs
+A. Đúng
+B. Sai
+=> A
+
+
+Câu 5. Phím tắt để mở cửa sổ Terminal là
+A. Ctrl + Alt + ~
+B. Ctrl + ~
+C. Alt + ~
+D. Shift + ~
+=> B
+
+
+Câu 6. Sau khi vừa khởi tạo một project, file App.js được chứa ở thư mục nào?
+A. src
+B. public
+C. node-modules
+D. scripts
+=> A
+
+Câu 7. Sau khi vừa khởi tạo một project, file index.html được chứa ở thư mục nào?
+A. src
+B. public
+C. node-modules
+D. scripts
+=> B
+
+Câu 8. Có bao nhiêu cách định nghĩa một component?
+A. 1
+B. 2
+C. 3
+D. 4
+=> D
+
+Câu 9. Cách khai báo function One() kiểu Functional Component
+A. function One() = {}
+B. const One = () => {}
+C. class One extends React.Component {}
+D. const One = function() {}
+=> D
+
+Câu 10: hàm Hello() được định nghĩa theo kiểu...
+const Hello = () => {
+    return (
+        <div>
+            <h1>Helllo</h1>
+        </div>
+    )
+}
+A. Functional Component
+B. Class Component
+C. Anonymous function
+D. Arrow function ( ES6 )
+=> D
+
+Câu 11: 2 cách chèn thẻ component có tên MyComponent là
+A. <MyComponent />
+   <MyComponent><MyComponent />
+B. <MyComponent />
+   <MyComponent></ MyComponent>
+C  </ MyComponent>
+   <MyComponent></ MyComponent>
+=> B
+
+Câu 12: Cách trả về 2 thẻ
+<h1>Noi dung 1</h1>
+<h1>Noi dung 2</h1>
+
+A. return {
+    <h1>Noi dung 1</h1>
+    <h1>Noi dung 2</h1>
+}
+B. return (
+    <h1>Noi dung 1</h1>
+    <h1>Noi dung 2</h1>
+)
+C. return (
+    <div>
+        <h1>Noi dung 1</h1>
+        <h1>Noi dung 2</h1>
+    </div>
+)
+D. return {
+    <div>
+        <h1>Noi dung 1</h1>
+        <h1>Noi dung 2</h1>
+    </div>
+}
+=> C 
+
+
+Câu 13. Hàm có chức năng tương tự như array là...
+A. state
+B. map
+C. props
+D const
+=> B 
+
+Câu 14. Câu nào sau đây là đúng khi nói về props?
+A. props chỉ cho phép truyền giá trị vào các components
+B. props chỉ cho phép truyền tham số vào các components
+C. props chỉ chứa thuộc tính của các components, không cho phép truyền bất cứ gì từ bên ngoài vào
+D. props cho phép truyền các giá trị và tham số từ bên ngoài vào trong các components
+=> D 
+
+Câu 15. Cho các số từ 1 -> 10, yêu cầu xuất ra màn hình các số đó với hàm map. Chỗ trống là?
+const mang = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const so = ........................;
+function App() {
+    return (
+        <div className="App"> {so} </div>
+    );
+}
+A. mang.map((x) => (<p>{x}</p>))
+B. array.map((x) => (<p>{array[x]}</p>))
+C. map.mang[x](() => (<p>{x}</p>))
+D. map.array[x](() => (<p>{array[x]}</p>))
+=> A 
+
+
+Câu 16. <button onclick="xinchao()">Ấn tui đi</button>
+Button trên nếu được viết trong function Reactjs thì được viết là:
+A. <button onclick="function xinchao()">Ấn tui đi</button>
+B. <button onClick={xinchao()}>Ấn tui đi</button>
+C. <button onClick=xinchao()">Ấn tui đi</button>
+D. <button onClick={xinchao}>Ấn tui đi</button>
+=> D 
+
+Câu 17. Hãy chọn những câu đúng:
+A. React tạo ra DOM ảo
+B. React không sử dụng DOM ảo mà chỉ dùng DOM thật
+C. React sử dụng DOM ảo để update nhanh hơn
+D. DOM có cấu trúc dạng cây
+=> C, D
+
+Câu 18. Arrow function là cú pháp thuộc về
+A. ES5
+B. ES6
+C. ES4
+D. ES7
+=> B 
+
+Câu 19. Trong Reactjs, properties được viết tắt bằng prop
+A. Đúng
+B. Sai
+=> A
+
+Câu 20. Component là thẻ html ta tự định nghĩa
+A. Đúng
+B. Sai
+=> A
+
+Câu 21. Những câu sai là...
+A. Có thể chèn một link ảnh bằng props
+B. props không thể chèn một biến số
+C. map() không dùng cho mảng chỉ chứa một phần tử
+D. JSX được nhận biết bằng {}
+=> B, C
+
+
+Câu 22. Câu lệnh dùng để chạy chương trình reactjs là:
+A. npm start
+B. npm run
+C. npm run start
+D. npm server
+=> A 
+
+Câu 23. Từ nào sau đây dùng để chỉ Vòng đời của component ?
+A. Lifecycle
+B. Lifecircle
+C. Componentcycle
+D. Component-life
+=> A
+
+Câu 24. Điểm khác nhau giữ props và state:
+A. props không thể thay đổi, state thì có thể thay đổi
+B. props có thể thay đổi, state thì không thể thay đổi
+C. state chỉ dùng trong Comp tạo ra nó, trái lại với props
+D. props chỉ dùng trong Comp tạo ra nó, trái lại với state
+
+Câu 25. Câu lệnh dùng để cài đặt router dom là
+A. npm install react-router-dom
+B. npm install router-dom
+C. npm install reactjs-router-dom
+D. npm install dom-react-router
+=> A 
+
+Câu 26. DOM được sử dụng trong React là
+A. DOM ảo
+B. DOM thật
+C. sử dụng hình thức khác thay DOM
+D. không sử dụng DOM
+
+Câu 27. Chèn style { margin-top: 10px } vào tag trong Reactjs có cú pháp:
+A. <div style={{marginTop: '10px'}}>...</div>
+B. <div style={{margin-top: '10px'}}>...</div>
+C. <div style={{marginTop, '10px'}}>...</div>
+D. <div style="marginTop: '1px' ">...</div>
+=> A
+
+
+Câu 28. 
+(1)DOM HTML có cấu trúc dạng cây
+(2)DOM ảo được React sử dụng free
+(3)DOM là viết tắt của Document object model
+Số câu đúng là:
+A. 0
+B. 1
+C. 2
+D. 3
+=> D 
+
+Câu 29. Chọn các câu đúng?
+A. Reactjs là một ngôn ngữ lập trình frontend
+B. DOM ảo do React sáng lập và sử dụng
+C. Hooks ra đời vào năm 2018
+D. constructor không được sử dụng trong functional components
+E. Trỏ vào một thư mục bao bên ngoài thư mục/tệp hiện tại, gõ move ../
+=> C, D 
+
+Câu 30. Đâu không phải là một hook có sẵn trong ReactJS?
+A. useState
+B. useEffect
+C. useMemory
+D. useCallback
+=> C

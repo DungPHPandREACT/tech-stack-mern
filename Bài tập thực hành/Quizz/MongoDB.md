@@ -1,0 +1,147 @@
+```jsx
+1. CRUD là viết tắt của những từ nào sau đây?
+a) Create, Read, Update, Deploy
+b) Create, Read, Update, Delete
+c) Copy, Read, Update, Delete
+d) Continue, Read, Update, Delete
+
+2. CRUD là một phương pháp để làm gì trong lập trình?
+a) Xây dựng giao diện người dùng
+b) Xử lý dữ liệu trên máy chủ
+c) Tạo ứng dụng di động
+d) Lập trình trò chơi
+
+3. Phương thức HTTP nào được sử dụng để tạo mới dữ liệu trong CRUD?
+a) GET
+b) POST
+c) PUT
+d) DELETE
+
+4. Phương thức HTTP nào được sử dụng để đọc dữ liệu trong CRUD?
+a) GET
+b) POST
+c) PUT
+d) DELETE
+
+5. Phương thức HTTP nào được sử dụng để cập nhật dữ liệu trong CRUD?
+a) GET
+b) POST
+c) PUT
+d) DELETE
+
+6. Phương thức HTTP nào được sử dụng để xóa dữ liệu trong CRUD?
+a) GET
+b) POST
+c) PUT
+d) DELETE
+
+7. Trong CRUD, việc tạo mới dữ liệu tương ứng với hoạt động nào?
+a) Create
+b) Read
+c) Update
+d) Delete
+
+8. Trong CRUD, việc đọc dữ liệu tương ứng với hoạt động nào?
+a) Create
+b) Read
+c) Update
+d) Delete
+
+9. Trong CRUD, việc cập nhật dữ liệu tương ứng với hoạt động nào?
+a) Create
+b) Read
+c) Update
+d) Delete
+
+10. Trong CRUD, việc xóa dữ liệu tương ứng với hoạt động nào?
+a) Create
+b) Read
+c) Update
+d) Delete
+Đáp án:
+1. b
+2. b
+3. b
+4. a
+5. c
+6. d
+7. a
+8. b
+9. c
+```
+
+---
+
+```jsx
+1. Aggregation trong MongoDB được sử dụng để làm gì?
+a) Tạo mới các bản ghi trong cơ sở dữ liệu
+b) Đọc dữ liệu từ cơ sở dữ liệu
+c) Cập nhật dữ liệu trong cơ sở dữ liệu
+d) Xử lý và tính toán dữ liệu trong cơ sở dữ liệu
+
+2. Cú pháp nào được sử dụng để bắt đầu một truy vấn aggregation trong MongoDB?
+a) db.collection.find()
+b) db.collection.update()
+c) db.collection.aggregate()
+d) db.collection.insert()
+
+3. Trong MongoDB Aggregation, phương thức nào được sử dụng để nhóm dữ liệu theo một trường cụ thể?
+a) $match
+b) $group
+c) $project
+d) $sort
+
+4. Trong MongoDB Aggregation, phương thức nào được sử dụng để lọc dữ liệu dựa trên một điều kiện?
+a) $match
+b) $group
+c) $project
+d) $sort
+
+5. Trong MongoDB Aggregation, phương thức nào được sử dụng để tính tổng giá trị của một trường cụ thể?
+a) $match
+b) $group
+c) $project
+d) $sum
+
+6. Trong MongoDB Aggregation, phương thức nào được sử dụng để sắp xếp dữ liệu theo một trường cụ thể?
+a) $match
+b) $group
+c) $project
+d) $sort
+
+7. Trong MongoDB Aggregation, phương thức nào được sử dụng để chọn ra các trường cụ thể trong kết quả truy vấn?
+a) $match
+b) $group
+c) $project
+d) $sort
+
+8. Trong MongoDB Aggregation, phương thức nào được sử dụng để tính trung bình của một trường cụ thể?
+a) $match
+b) $group
+c) $project
+d) $avg
+
+9. Trong MongoDB Aggregation, phương thức nào được sử dụng để loại bỏ các bản ghi trùng lặp trong kết quả truy vấn?
+a) $match
+b) $group
+c) $project
+d) $sort
+
+10. Trong MongoDB Aggregation, phương thức nào được sử dụng để lấy giá trị lớn nhất của một trường cụ thể?
+a) $match
+b) $group
+c) $project
+d) $max
+
+Đáp án:
+1. d
+2. c
+3. b
+4. a
+5. d
+6. d
+7. c
+8. d
+9. b
+10. d
+```

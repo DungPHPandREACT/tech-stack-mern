@@ -1,0 +1,304 @@
+1. MERN stack is a ____.
+
+A. React-based framework
+B. JavaScript-based framework
+C. Python-based framework
+
+Answer: B) JavaScript-based framework
+Explanation: MERN stack is a JavaScript-based framework.
+
+2. MERN stack is used for ____.
+
+A. Deploying web applications
+B. Developing ORM-based applications
+C. Developing web applications
+
+Answer: C) Developing web applications
+Explanation: MERN stack is used for developing web applications.
+
+3. The M in MERN stack stands for ____.
+A. Mongoose
+B. MySQL
+C. MongoDB
+D. Material.js
+
+Answer: C) MongoDB
+Explanation: The M in the MERN stack stands for MongoDB.
+
+4. The E in MERN stack stands for ____.
+A. ES6.js
+B. Express.js
+C. Ember.js
+D. Ext.js
+
+Answer: B) Express.js
+Explanation: The E in MERN stack stands for express.js.
+
+5. The R in MERN stack stands for ____.
+A. ReactJS
+B. VueJS
+C. Angular.js
+
+Answer: A) ReactJS
+Explanation: The R in MERN stack stands for ReactJS.
+
+6. The N in MERN stack stands for ____.
+A. Next.js
+B. Node.js
+C. Neo4J
+
+Answer: B) Node.js
+Explanation: The N in MERN stack stands for node.js.
+
+7. How many technologies make up the layers of the MERN stack?
+A. 7
+B. 6
+C. 5
+D. 4
+
+Answer: D) 4
+Explanation: MongoDB, Express, ReactJS, and Node are the four key technologies that make up the layers of the stack.
+
+8. ____ is at the very top of the MERN stack.
+A. MongoDB
+B. Express
+C. ReactJS
+D. Node
+
+Answer: C) ReactJS
+Explanation: ReactJS is at the very top of the MERN stack.
+
+9. Which of the following contains strong models for URL routing (mapping an incoming URL to a server function), and manages HTTP requests and responses?
+A. MongoDB
+B. Express
+C. ReactJS
+D. Node
+
+Answer: B) Express
+Explanation: Express contains strong models for URL routing (mapping an incoming URL to a server function), and manages HTTP requests and responses.
+
+10. MongoDB stores data in which format?
+A. Text
+B. CSV
+C. JSON
+D. XLS
+
+Answer: C) JSON
+Explanation:MongoDB stores data in a JSON-like format.
+
+11. Which of the following provides a JavaScript runtime environment?
+A. MongoDB
+B. Express
+C. ReactJS
+D. Node
+
+Answer: D) Node
+Explanation: Node provides JavaScript runtime environment.
+
+12. Which of the following company created ReactJS?
+A. Apache
+B. MIT
+C. Facebook
+D. MICROSOFT
+C. IBM
+
+Answer: C) Facebook
+Explanation: Facebook originally developed and maintains ReactJS.
+
+13. You save all of your program's variable runtime configuration settings and a collection of application utility functions in which of the following folder?
+A. App
+B. Config
+C. Modules
+D. Public
+
+Answer: B) Config
+Explanation:You save all of your program's variable runtime configuration settings and a collection of application utility functions in the config folder.
+
+14. Choose the wrong answer: Reactjs features are:
+A. Ability to load data quickly.
+B. Reload all data.
+C. Packaging and management according to component logic.
+D. Learn once, write anywhere.
+
+Answer: B) 
+
+15. Which folder houses every static front-end file that the app needs to be provided?
+A. Public
+B. Static
+C. App
+
+Answer: A) Public
+Explanation:Public folder houses every static front-end file that the app needs to be provided.
+
+16. The MERN.JS boilerplate uses ____ as its web framework.
+A. MongoDB
+B. Express
+C. ReactJS
+D. Node
+
+Answer: B) Express
+Explanation: The MERN.JS boilerplate uses Express as its web framework.
+
+17. Is Node.js based on a single thread?
+A. Yes
+B. No
+
+Answer: A) Yes
+Explanation: Yes, Node.js is wholly based on a single thread.
+
+18. Which of the following is used to create a scope for the application?
+A. $$scope
+B. Scope__
+C. $scope
+
+Answer: C) $scope
+Explanation: $ Scope is used to create a scope for the application.
+
+19. Which of the following is used to bind input fields to a model?
+A. ng-bind
+B. ng-input
+C. ng-model_fields
+D. ng-model
+
+Answer: D) ng-model
+Explanation: ng-model is used to bind input fields to a model.
+
+20. The ____ method is used to build an HTTP server.
+A. createServer()
+B. buildServer()
+C. newServer()
+
+Answer: A) createServer()
+Explanation: The createServer() method is used to build an HTTP server.
+
+21. Which of the following function reads a file from the file system?
+A. Read
+B. Readfunction()
+C. readFile()
+
+Answer: C) readFile()
+Explanation: readFile() is a function that reads a file from the file system.
+
+22. ____ is used to make variables and functions accessible from outside the module.
+A. Include
+B. Path
+C. Require
+D. Export
+
+Answer: D) Export
+Explanation: The Export is used to make variables and functions accessible from outside the module.
+
+23. Which of the following is used to include external modules?
+A. Include
+B. Path
+C. Require
+D. Export
+
+Answer: C) Require
+Explanation: Require is used to include external modules.
+
+24. ReactJS is written in ____.
+A. C++
+B. C
+C. Java
+D. JavaScript
+
+Answer: D) JavaScript
+Explanation: ReactJS is written in JavaScript.
+
+25. MongoDB is written in ____.
+A. C++
+B. C
+C. Java
+D. JavaScript
+E. TypeScript
+
+Answer: A) C++
+Explanation: MongoDB is a NoSQL document-oriented database that is written in C++.
+
+26. Which of the following is used to delete a single document from a collection?
+A. removeOne()
+B. DelOne()
+C. DeleteOne()
+Answer: C) DeleteOne()
+Explanation: DeleteOne() is used to delete a single document from a collection.
+
+27. The ____ function is used to process HTTP DELETE requests.
+A. Remove()
+B. Purge()
+C. Deactivate()
+D. Delete()
+
+Answer: D) Delete()
+Explanation: The delete() function is used to process HTTP DELETE requests.
+
+28. Which of the following repeats HTML components for every item in an array?
+A. ng-repeat
+B. ng-multi
+C. ng-dupes
+D. ng-duplicate
+
+Answer: A) ng-repeat
+Explanation: ng-repeat repeats HTML components for every item in an array.
+
+29. Which of the following is used to make HTTP requests to a server?
+A. $http
+B. $ftp
+C. $url
+D. $web
+
+Answer: A) $http
+Explanation: $http is used to make HTTP requests to a server.
+
+30. ____ is a function that manages HTTP GET requests.
+A. Gets()
+B. Get()
+C. Join()
+
+Answer: B) Get()
+Explanation: Get() is a function that manages HTTP GET requests.
+
+31. Which of the following is used to search through a collection of documents?
+A. Locate()
+B. Search()
+C. Get()
+D. Find()
+
+Answer: D) Find()
+Explanation: Find () is used to search through a collection of documents.
+
+32. ____ is a function that manages HTTP POST requests.
+A. Posts()
+B. Put()
+C. Post()
+D. http()
+
+Answer: C) Post()
+Explanation: Post() is a function that manages HTTP POST requests.
+
+33. Which of the following function is used to add one document to a collection?
+A. addOne()
+B. appendOne()
+C. insertOne()
+Answer: C) insertOne()
+Explanation: The insertOne() function is used to add one document to a collection.
+
+34. ____ is used to update a single document in a collection.
+A. Updates()
+B. Update_foremost()
+C. Update!
+D. UpdateOne()
+Answer: D) UpdateOne()
+Explanation: UpdateOne() is used to update a single document in a collection.
+
+35. Which of the following architecture does MERN stack use?
+A. MVC
+B. MVM
+C. MVVM
+D. Layered
+E. Master-slave
+Answer: A) MVC
+
+Explanation:
+
+The MERN stack is based on the MVC architecture.
