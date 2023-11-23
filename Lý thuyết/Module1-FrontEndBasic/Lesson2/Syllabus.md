@@ -117,12 +117,8 @@ Các thẻ heading là các thẻ tiêu đề, thường được sử dụng đ
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b781ae8c-e316-44bf-b312-77cd4ef0538c/Untitled.png)
+>💡 Các thẻ heading thường khá quan trọng trong ứng dụng web, do các máy tìm kiếm như Google hay Bing sử dụng chúng để xác định nội dung bài viết
 
-<aside>
-💡 Các thẻ heading thường khá quan trọng trong ứng dụng web, do các máy tìm kiếm như Google hay Bing sử dụng chúng để xác định nội dung bài viết
-
-</aside>
 
 ### HTML Paragraph
 
