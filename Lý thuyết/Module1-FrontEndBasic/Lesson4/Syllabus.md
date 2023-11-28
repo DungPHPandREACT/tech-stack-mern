@@ -14,7 +14,7 @@ Với giá trị là `inline`, HTML element đó sẽ chiếm một diện tích
 
 Các thẻ `<span>`, `<a>` là một trong số các thẻ HTML có kiểu display mặc định là `inline`.
 
-![Untitled](./images-syllabus/display-inline.png.png)
+![Untitled](./images-syllabus/display-inline.png)
 
 ## `display: block`
 
