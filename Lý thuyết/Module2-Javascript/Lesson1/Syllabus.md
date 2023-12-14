@@ -274,6 +274,17 @@ let y = 10
 console.log(y > x) // true
 ```
 
-### Toán tử logic
-
+Toán tử logic
 Sử dụng để tạo ra các kết quả logic giữa 2 giá trị.
+
+| && | và  |
+| --- | --- |
+| <span>||</span> | hoặc |
+| ! | phủ định |
+
+```jsx
+const x = true
+const y = false
+
+console.log(x && y) // false
+```

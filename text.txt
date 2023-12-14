@@ -1,8 +1,0 @@
-<style>
-    selector{
-        property-1: value-1;
-        ....
-        property-n: value-n;
-    }
-</style>
-
