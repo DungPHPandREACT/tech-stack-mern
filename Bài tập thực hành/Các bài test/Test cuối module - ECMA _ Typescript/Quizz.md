@@ -103,7 +103,7 @@ let a = 12, b = 3;
 
 ```jsx
 const obj = {
-	name: "MindX"
+	name: "T3h"
 }
 const sayHello = (x) => {
 	let {name} = x
@@ -112,7 +112,7 @@ const sayHello = (x) => {
 sayHellO(obj)
 ```
 
-1. `{name: “MindX”}`
+1. `{name: “T3h”}`
 2. `{name: “Code Intensive”}`
 3. `Error`
 
