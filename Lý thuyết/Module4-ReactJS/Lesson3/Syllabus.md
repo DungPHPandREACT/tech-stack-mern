@@ -49,7 +49,7 @@ const App = () => {
 
 ---
 
-# 2. Component Functions được thực thi như thế nào?
+# Component Functions được thực thi như thế nào?
 
 ```jsx
 const App = () => {
@@ -90,7 +90,7 @@ Như vậy, mặc dù các function component không được gọi trực tiế
 
 ---
 
-# 3. Cập nhật giao diện với các sự kiện
+# Cập nhật giao diện với các sự kiện
 
 Xét ví dụ sau:
 
@@ -121,7 +121,7 @@ Thực tế, các biến thông thường như `count` trong ví dụ trên sẽ
 
 ---
 
-# 4. Sử dụng state với React hooks
+# Sử dụng state với React hooks
 
 State về cơ bản là một giá trị biến đặc biệt trong React. Nó là giá trị mà khi thay đổi, React sẽ tiến hành việc tính toán lại kết quả của component, và từ đó cập nhật lại giao diện. Để sử dụng được state, chúng ta cần import một function từ trong thư viện React là `useState`. `useState` và một số function khác trong thư viện được gọi là các “hooks”. Chúng ta sẽ biết tới các hooks khác của React ở những bài sau.
 
@@ -187,7 +187,7 @@ Trong các phần sau, chúng ta sẽ chủ yếu sử dụng cú pháp này.
 
 ---
 
-# 5. Hiểu rõ hơn về state trong React
+# Hiểu rõ hơn về state trong React
 
 ### State là giá trị riêng và độc lập giữa từng thực thể component.
 
