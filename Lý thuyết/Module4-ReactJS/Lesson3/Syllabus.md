@@ -331,7 +331,7 @@ Cách cập nhật state này có nhiều lợi ích mà chúng ta sẽ nói ở
 >🤔 Đọc thêm về React State bằng tiếng Việt ở đây:
 https://vi.reactjs.org/docs/hooks-state.html
 
-# 1. Xử lý Form với React
+# Xử lý Form với React
 
 Form là một trong những thành phần luôn xuất hiện trong tất cả các ựng dụng web. Xét ví dụ bên dưới:
 
@@ -419,7 +419,7 @@ Với việc thay đổi giá trị `input` thông qua event `onChange` của in
 
 ---
 
-# 2. Component tree
+# Component tree
 
 Với một ứng dụng thông thường, ta có thể có một cấu trúc như sau:
 
@@ -546,7 +546,7 @@ Như vậy, luồng dữ liệu của React được luôn chuyển theo công t
 
 ---
 
-# 3. Lifting state Up
+# Lifting state Up
 
 Các ứng dụng web hiện đại đều muốn có sự chia sẻ dữ liệu giữa các components. Để thực hiện được điều này trong ứng dụng React cần phải sử dụng một kĩ thuật đặc biệt: “Lifting state up”.
 
