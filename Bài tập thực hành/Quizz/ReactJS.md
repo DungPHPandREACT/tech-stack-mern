@@ -1,3 +1,4 @@
+```
 Câu 1. Định nghĩa nào sau đây là đúng với Reactjs?
 A. Reactjs là một ngôn ngữ lập trình được phát triển bởi Facebook.
 B. Reactjs là một thư viện Javascript được phát triển bởi Facebook.
@@ -351,3 +352,4 @@ C. return
 D. render
 E. nhận tham số
 => A, B, D 
+```

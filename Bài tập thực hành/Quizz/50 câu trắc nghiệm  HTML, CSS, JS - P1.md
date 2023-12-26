@@ -1,3 +1,4 @@
+```
 Câu 1: JavaScript là ngôn ngữ xử lý ở:
 A: Client 
 B: Server
@@ -296,3 +297,4 @@ B. round(7.25)
 C. Math.round(7.25)
 D. Math.rnd(7.25)
 => C 
+```

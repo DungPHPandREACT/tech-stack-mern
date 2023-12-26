@@ -1,3 +1,4 @@
+```
 Câu 1: Đâu là loại module trong Node.js
 Select one or more:
 A. Third party module
@@ -71,3 +72,4 @@ B. Mongoose
 C. http
 D. ExpressJS
 The correct answers are: Moment, ExpressJS, Mongoose
+```

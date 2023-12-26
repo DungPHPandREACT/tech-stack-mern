@@ -1,3 +1,4 @@
+```
 Câu 1: Để khai báo một phần tử điều khiển khi nhấn vào sẽ gửi thông tin của form đi ta sử dụng thẻ:
 A. <input type= "text">
 B. <input type = "submit"
@@ -335,3 +336,4 @@ B. H1 {background-color:#ffffff}
 C. All.h1 {background-color:#ffffff}
 D. Tất cả các câu trên đều sai.
 Chọn đáp án B
+```

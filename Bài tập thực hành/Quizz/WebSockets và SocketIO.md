@@ -1,3 +1,4 @@
+```jsx
 Câu 1: Để lắng nghe một event ta dùng?
 A. io.addEvent(event)
 B. io.emit(event)
@@ -67,3 +68,4 @@ B. io.to("room1","room2","room3").emit("some event");
 C. io.to("room1").and("room2","room3").emit("some event");
 D. io.to("room1").and("room2").and("room3").emit("some event");
 The correct answer is: io.to("room1").to("room2").to("room3").emit("some event");
+```

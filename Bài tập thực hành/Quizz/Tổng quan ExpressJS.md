@@ -1,3 +1,4 @@
+```
 Câu 1. Express là framework?
 A. Đúng 
 B. Sai 
@@ -174,3 +175,4 @@ app.use(bodyParser.json())
 The correct answer is:
 import body-parser from 'body-parser';
 app.use(bodyParser.json());
+```

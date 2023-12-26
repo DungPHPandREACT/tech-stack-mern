@@ -1,3 +1,4 @@
+```
 Câu 1: Cho đoạn mã sau: 
 try {
     try {
@@ -127,4 +128,4 @@ A. In ra message một lần
 B. Không in ra gì
 C. In ra message hai lần
 D. Error
-
+```

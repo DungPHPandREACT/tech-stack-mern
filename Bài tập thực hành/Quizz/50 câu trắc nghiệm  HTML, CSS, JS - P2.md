@@ -1,3 +1,4 @@
+```
 Câu 1:Câu lệnh lặp For trong JavaScript có dạng nào sau đây?
 A. for (biến = Giá trị đầu; Điều kiện; Giá trị tăng)
 B. for (biến = Giá trị đầu; Giá trị tăng; điều kiện)
@@ -553,3 +554,4 @@ B. <input type ="radio"
 C. <input type="checkbox"
 D. <textarea>
 Chọn đáp án C
+```

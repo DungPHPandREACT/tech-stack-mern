@@ -1,3 +1,4 @@
+```
 Câu 1: Phát biểu nào đúng về NodeJS
 Select one or more:
 A. Node.js có khả năng mở rộng cao vì cơ chế sự kiện giúp máy chủ phản hồi theo cách không bị chặn(non-blocking).
@@ -82,3 +83,4 @@ B. Mã nguồn mở: Node.js có một cộng đồng mã nguồn mở đã tạ
 C. Node.js là đa luồng.
 D. Cực nhanh: Node.js được xây dựng trên Công cụ JavaScript V8 của Google Chrome, do đó, thư viện của nó thực thi mã rất nhanh.
 The correct answers are: Cực nhanh: Node.js được xây dựng trên Công cụ JavaScript V8 của Google Chrome, do đó, thư viện của nó thực thi mã rất nhanh., Mã nguồn mở: Node.js có một cộng đồng mã nguồn mở đã tạo ra nhiều mô-đun tuyệt vời để bổ sung cho các ứng dụng Node.js.
+```

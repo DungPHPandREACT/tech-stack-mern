@@ -1,3 +1,4 @@
+```
 Câu 1: Khẳng định sau đúng hay sai? Box-shadow được tất cả các trình duyệt hỗ trợ
 A. Đúng
 B. Sai
@@ -349,3 +350,4 @@ B. Visual Basic
 C. C++
 D. Foxpro
 Chọn đáp án C 
+```

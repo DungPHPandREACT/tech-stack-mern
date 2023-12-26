@@ -1,3 +1,4 @@
+```
 Câu 1. Chọn những phát biểu đúng về Web Service
 Select one or more:
 A. Việc thực hiện truyền nhận thông tin giữa các web service được thực hiện qua giao thức HTTP
@@ -68,3 +69,4 @@ A. PUT được dùng khi chúng ta muốn update toàn bộ các thuộc tính 
 B. Cả 2 phương thức cùng được dùng để update 1 Record
 C. PATCH được dùng khi chúng ta muốn update một số thuộc tính nhất định
 The correct answers are: Cả 2 phương thức cùng được dùng để update 1 Record, PUT được dùng khi chúng ta muốn update toàn bộ các thuộc tính của 1 Resource, PATCH được dùng khi chúng ta muốn update một số thuộc tính nhất định
+```

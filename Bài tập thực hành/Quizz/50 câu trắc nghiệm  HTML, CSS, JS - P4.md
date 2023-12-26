@@ -1,3 +1,4 @@
+```
 Câu 1: Làm thế nào thay màu nền của chữ (text)?
 A. Text-color=
 B. Fgcolor:
@@ -346,3 +347,4 @@ B. transition-duration: 2s; transition-effect: width;
 C. alpha-effect: transition (width,2s);
 D. None
 Chọn đáp án A
+```
