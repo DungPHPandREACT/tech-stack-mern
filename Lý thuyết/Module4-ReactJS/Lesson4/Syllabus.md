@@ -63,7 +63,7 @@ const App = () => {
 				<Route path="/welcome" element={<Welcome />} />
 				<Route path="/products" element={<ProductList />} />
 			</Routes>
-			<footer>Made by MindX</footer>
+			<footer>Made by T3H</footer>
 		</div>
 	)
 }

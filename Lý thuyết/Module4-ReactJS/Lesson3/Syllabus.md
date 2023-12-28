@@ -293,7 +293,7 @@ Trong nhiều trường hợp, các giá trị state mới có thể dựa vào 
 
 ```jsx
 const App = () => {
-	const [person, setPerson] = useState({name: "MindX", age: 10})
+	const [person, setPerson] = useState({name: "T3H", age: 10})
 
 	const increaseAge = () => {
 	}
@@ -468,7 +468,7 @@ Props chính là công cụ để giao tiếp từ node cha xuống node con. X�
 ```jsx
 const App = () => {
 	const [people, setPeople] = useState([
-		{name: "MindX"}, {name: "React"}
+		{name: "T3H"}, {name: "React"}
 	])
 	return (
 		<div>

@@ -276,7 +276,7 @@ const App = () => {
 	const imgSrc = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"	
 	return (
 		<div>
-			Hello, my name is MindX. I'm {randomAge} years old.
+			Hello, my name is T3H. I'm {randomAge} years old.
 			<img src={imgSrc} />
 		</div>
   )
