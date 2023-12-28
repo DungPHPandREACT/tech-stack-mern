@@ -255,7 +255,7 @@ Xem ví dụ sau:
 
 ```jsx
 const App = () => {
-	const [person, setPerson] = useState({name: "MindX", age: 10})
+	const [person, setPerson] = useState({name: "T3H", age: 10})
 
 	const increaseAge = () => {
 		person.age = person.age + 1;
