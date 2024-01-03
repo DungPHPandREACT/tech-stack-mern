@@ -5,14 +5,15 @@
 ...
 
 <script>
-	const p = document.getElementById('myP');
-	const div = document.getElementById('myDiv');
-
-	div.addEventListener('click', function () {
-		console.log('div clicked');
-	});
-
-	p.addEventListener('click', function () {
-		console.log('p clicked');
-	});
+	try {
+		// Mã có thể gây ra ngoại lệ
+		// ...
+	} catch (error) {
+		// Xử lý ngoại lệ ở đây
+		// `error` là một đối tượng chứa thông tin về ngoại lệ
+		// ...
+	} finally {
+		// Mã được thực hiện bất kể có ngoại lệ hay không
+		// ...
+	}
 </script>
