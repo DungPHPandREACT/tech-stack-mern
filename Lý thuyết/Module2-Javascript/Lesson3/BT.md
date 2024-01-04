@@ -21,7 +21,7 @@ phần tử cuối cùng trong mảng đến khi độ dài mảng bằng 1.
 -Tìm 1 số đầu tiên trong dãy s có giá trị bằng n.
 
 
-
+```jsx
 Thực hành
 1. Khai báo 1 mảng gồm các số bất kỳ. 
 -Tính tích của các phần tử trong mảng đó.
@@ -62,3 +62,4 @@ let growth = [
 -Tìm số đầu tiên trong dãy lớn hơn 5 và chia hết cho 2.
 -Tìm tất cả số lẻ trong dãy s .
 -Biến đổi dãy s thành dãy x mà các phần tử của dãy x là bình phương các phần tử của dãy s.
+```
