@@ -76,6 +76,7 @@ age > 25 && isMarried && isRich → ?
 (age == 8 && isMarried) || !isRich → ?
 
 7 Hãy cho biết kết quả phép toán và biểu thức
+a = 11, b = '22', c = 33
 a + b = ?
 a - c = ?
 a + b + c = ?
