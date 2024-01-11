@@ -5,15 +5,14 @@
 ...
 
 <script>
-	try {
-		// Mã có thể gây ra ngoại lệ
-		// ...
-	} catch (error) {
-		// Xử lý ngoại lệ ở đây
-		// `error` là một đối tượng chứa thông tin về ngoại lệ
-		// ...
-	} finally {
-		// Mã được thực hiện bất kể có ngoại lệ hay không
-		// ...
+	// Ví dụ, nếu bạn khai báo một biến toàn cục như sau:
+	let globalVariable = 'Hello, World!';
+	// Thì bạn có thể truy cập nó thông qua window như sau:
+	console.log(window.globalVariable); // Hiển thị "Hello, World!"
+	// Tương tự, nếu bạn khai báo một hàm toàn cục:
+	function globalFunction() {
+		console.log('This is a global function');
 	}
+	// Thì bạn cũng có thể gọi nó bằng cách sử dụng window:
+	window.globalFunction(); // Hiển thị "This is a global function"
 </script>

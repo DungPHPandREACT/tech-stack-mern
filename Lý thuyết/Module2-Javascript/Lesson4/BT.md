@@ -40,6 +40,8 @@ Thực hành
 5. Xây dựng chương trình quản lý kho hàng như sau:
 -Cửa hàng gồm các thông tin: tên kho hàng, địa chỉ, người sở hữu, các mặt hàng trong kho.
 -Mỗi mặt hàng gồm: mã mặt hàng, tên, loại mặt hàng, giá cả.
+```jsx
+
 const storage = {
     name: 'Fake Storage',
     address: 'HN',
@@ -56,6 +58,7 @@ const storage = {
         },
     ]
 }
+```
 *Xây dựng chương trình tương tác với kho hàng. Nhập vào action là yêu cầu ứng với các thao tác:
     Action 1 -> Ý nghĩa: Sửa thông tin kho hàng
     Action 2 -> Ý nghĩa: Tạo mặt hàng trong kho
