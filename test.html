@@ -5,14 +5,14 @@
 ...
 
 <script>
-	const p = document.getElementById('myP');
-	const div = document.getElementById('myDiv');
-
-	div.addEventListener('click', function () {
-		console.log('div clicked');
-	});
-
-	p.addEventListener('click', function () {
-		console.log('p clicked');
-	});
+	// Ví dụ, nếu bạn khai báo một biến toàn cục như sau:
+	let globalVariable = 'Hello, World!';
+	// Thì bạn có thể truy cập nó thông qua window như sau:
+	console.log(window.globalVariable); // Hiển thị "Hello, World!"
+	// Tương tự, nếu bạn khai báo một hàm toàn cục:
+	function globalFunction() {
+		console.log('This is a global function');
+	}
+	// Thì bạn cũng có thể gọi nó bằng cách sử dụng window:
+	window.globalFunction(); // Hiển thị "This is a global function"
 </script>
