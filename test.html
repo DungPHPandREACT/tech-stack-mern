@@ -5,14 +5,16 @@
 ...
 
 <script>
-	// Ví dụ, nếu bạn khai báo một biến toàn cục như sau:
-	let globalVariable = 'Hello, World!';
-	// Thì bạn có thể truy cập nó thông qua window như sau:
-	console.log(window.globalVariable); // Hiển thị "Hello, World!"
-	// Tương tự, nếu bạn khai báo một hàm toàn cục:
-	function globalFunction() {
-		console.log('This is a global function');
+	function* generateNumbers() {
+		yield 1;
+		yield 2;
+		yield 3;
 	}
-	// Thì bạn cũng có thể gọi nó bằng cách sử dụng window:
-	window.globalFunction(); // Hiển thị "This is a global function"
+
+	let generator = generateNumbers();
+
+	console.log(generator.next()); // Output: { value: 1, done: false }
+	console.log(generator.next()); // Output: { value: 2, done: false }
+	console.log(generator.next()); // Output: { value: 3, done: false }
+	console.log(generator.next()); // Output: { value: undefined, done: true }
 </script>
