@@ -1,3 +1,4 @@
+
 # Trắc nghiệm
 
 **Câu 1:** `var` khai báo một biến có phạm vi trong block?
@@ -177,7 +178,7 @@ const total = arr.filter(item => item % 2 === 0)
     - Xoá các danh bạ bị trùng số điện thoại (ở trong ví dụ là Alice và Daniel). Sẽ xoá người nào đứng sau (Daniel sẽ bị xoá)
 
 ---
-
+```jsx
 Tạo 1 thư mục với cấu trúc thư mục như sau:
 	index.html
 	main.js
@@ -216,3 +217,4 @@ Bài 9: Cho mảng A = [1,5,3,8,10]
 +Tìm số lớn thứ 2 trong mảng
 	Output: 8
 +Đếm các số chính phương có trong mảng
+```
