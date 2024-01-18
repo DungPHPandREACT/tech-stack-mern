@@ -1,6 +1,7 @@
 ## Lesson 1: Introduction
 
 ### 1. Ứng dụng Web là gì?
+
 Kết nối internet đã thay đổi cuộc sống của tất cả chúng ta. Nhờ internet, chúng ta có thể truy cập được kho kiến thức khổng lồ của nhân loại, kết nối và trò chuyện với những người nằm cách nửa vòng trái đất, hoặc thậm chí làm việc mà không cần tới văn phòng.
 
 ![Trang tin tức VNExpress](./images-syllabus/vn-express.png)
@@ -76,5 +77,5 @@ Như đã nói ở trên, các ứng dụng frontend được xây dựng bằng
 # 4. Các công cụ cần được cài đặt trong khoá học
 
 - Visual Studio Code: https://code.visualstudio.com/
-    - Extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+  - Extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 - Chrome Browser
