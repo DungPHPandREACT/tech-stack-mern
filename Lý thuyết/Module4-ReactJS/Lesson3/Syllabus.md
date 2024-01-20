@@ -483,12 +483,6 @@ const NameCard = (props) => {
 }
 ```
 
-Ta có component tree như sau:
-
-![Untitled](./images-syllabus/dom-tree-1.png)
-
-Hai component `NameCard` đều nhận các giá trị `name` từ component cha của chúng là App. Và đây cũng chính là luồng dữ liệu của React: **Data luôn di chuyển từ component cha xuống component con.**
-
 ### “Event up”
 
 Props cho phép người dùng có thể truyền các dạng giá trị JS khác nhau từ component cha xuống component con, bao gồm cả các “functions”. Chúng ta sẽ truyền xuống các function từ phía component cha xuống component con. Và các component con sẽ thực hiện chạy các function đó khi cần thiết.
