@@ -1,3 +1,4 @@
+```jsx
 1. Hãy khai báo các biến và cho biết kết quả của các phép toán dưới đây?  Giải thích vì sao có kết quả đó?
 x = true, y = true, z = false
 
@@ -96,3 +97,4 @@ isTall && isMuscle → ?
 !isTall || !isMuscle → ?
 isTall || !(isMuscle && isHandsome) → ?
 isMuscle && !(isTall || isHandsome) → ?
+```
