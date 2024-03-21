@@ -84,7 +84,7 @@
 // a * b > 50 → true
 // a ** b > 100 → true
 // a - (b++) == 5 → false
-// a - (++b) == 5 → -13
+// a - (++b) == 5 → false
 
 // 8. Cho các biến sau: 
 // isTall = true, isMuscle = false, isHandsome = true
