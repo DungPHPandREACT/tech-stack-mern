@@ -1,8 +1,0 @@
-1. Bạn hãy tạo ứng dụng todo app như design ở trên. Sử dụng Reactjs và hoàn thành các user stories sau:
-- **User story 1:** User có thể thêm task mới.
-- **User story 2:** User có thể hoàn thành task đó.
-- **User story 3:** User có thể chuyên giữa All, Active, Complete.
-- **User story 4:** User có thể xoá 1 hoặc tất cả các task đang có.
-- **User story (optional):** Sử dụng local storage để không bị mất dữ liệu mỗi khi loading lại trang web.
-2. Viết một hàm nhập vào 2 mảng A1 và A2, đầu ra trả về một mảng mới chứa các phần tử không trùng nhau của hai mảng kia. Ví dụ A1 = [1, 2, "a"]; A2 = [1, 3, "b"] thì output ra được là [2, "a", "b", 3].
-3. Viết chương trình xếp hạng rank theo số điểm các đội bóng đạt được trong giải đấu. Biết rằng tên của các đội bóng không thể trùng nhau, nếu số điểm trùng nhau thì xếp đội xếp trên có hiệu số bàn thắng bại (GD: Goal Difference) ít hơn, rồi mới xét đến Alphabet nếu 2 đội trùng cả điểm số lẫn hiệu số bàn thắng.

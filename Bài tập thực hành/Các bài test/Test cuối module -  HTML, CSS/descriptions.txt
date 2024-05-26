@@ -1,2 +1,0 @@
-Cho link design figma như sau: https://www.figma.com/file/0y6LKTSiObmtqFrk5c6uqq/Responsive-Figma-Design?node-id=1%3A2
-Cắt HTML, CSS từ link file figma trên
