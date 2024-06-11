@@ -59,7 +59,7 @@ const storage = {
         },
     ]
 }
-```
+jsx```
 *Xây dựng chương trình tương tác với kho hàng. Nhập vào action là yêu cầu ứng với các thao tác:
     Action 1 -> Ý nghĩa: Sửa thông tin kho hàng
     Action 2 -> Ý nghĩa: Tạo mặt hàng trong kho
