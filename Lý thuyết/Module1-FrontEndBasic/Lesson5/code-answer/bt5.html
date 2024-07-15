@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 800px;
+        }
+        .gallery-item {
+            flex: 1 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            vertical-align: middle;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 0 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex: 1 0 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/400x300" alt="Image 3">
+        </div>
+        <!-- Add more images -->
+    </div>
+</body>
+</html>

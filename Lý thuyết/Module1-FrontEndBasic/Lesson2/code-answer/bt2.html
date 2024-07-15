@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng với Kiểu Dáng</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bảng Thông Tin</h1>
+    <table>
+        <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>Địa chỉ</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Văn A</td>
+            <td>25</td>
+            <td>Hà Nội</td>
+        </tr>
+        <tr>
+            <td>Trần Thị B</td>
+            <td>30</td>
+            <td>Đà Nẵng</td>
+        </tr>
+        <tr>
+            <td>Lê Văn C</td>
+            <td>35</td>
+            <td>TP. Hồ Chí Minh</td>
+        </tr>
+    </table>
+</body>
+</html>

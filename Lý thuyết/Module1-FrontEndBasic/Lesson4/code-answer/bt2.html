@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ Sản Phẩm Sử Dụng Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-card {
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Product Image">
+        <h3>Product Name</h3>
+        <p>Price: $50</p>
+    </div>
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Product Image">
+        <h3>Product Name</h3>
+        <p>Price: $50</p>
+    </div>
+    <div class="product-card">
+        <img src="https://via.placeholder.com/200x150" alt="Product Image">
+        <h3>Product Name</h3>
+        <p>Price: $50</p>
+    </div>
+    <!-- Add more product cards as needed -->
+</body>
+</html>

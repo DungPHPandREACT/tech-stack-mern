@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Liên Hệ</title>
+    <style>
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 50px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 94%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <label for="name">Tên của bạn</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email của bạn</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Lời nhắn của bạn</label>
+        <textarea id="message" name="message"></textarea>
+
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>

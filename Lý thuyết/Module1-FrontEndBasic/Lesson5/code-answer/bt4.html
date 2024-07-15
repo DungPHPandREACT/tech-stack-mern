@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .pricing-table {
+            display: flex;
+            gap: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        .plan {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .plan h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .plan p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .plan .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .plan button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .plan button:hover {
+            background-color: #45a049;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .pricing-table {
+                flex-direction: column;
+            }
+            .plan {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="plan">
+            <h3>Basic</h3>
+            <p>For individuals</p>
+            <div class="price">$10/month</div>
+            <button>Choose Plan</button>
+        </div>
+        <div class="plan">
+            <h3>Pro</h3>
+            <p>For small teams</p>
+            <div class="price">$20/month</div>
+            <button>Choose Plan</button>
+        </div>
+        <div class="plan">
+            <h3>Enterprise</h3>
+            <p>For large companies</p>
+            <div class="price">$50/month</div>
+            <button>Choose Plan</button>
+        </div>
+    </div>
+</body>
+</html>
